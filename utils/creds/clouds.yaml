@@ -1,0 +1,10 @@
+clouds:
+  CIS220074_IU:
+    region_name: IU
+    interface: public
+    identity_api_version: 3
+    auth_type: v3applicationcredential
+    auth:
+      auth_url: https://js2.jetstream-cloud.org:5000/v3/
+      application_credential_id: d0c00c0025174d76acb7668dd110a7b1
+      application_credential_secret: yfKVU0Spqi7i9CgdBGvoQ2B-l2vbL0cf1flmZDtnXK6zzpZUvSlb9ba9yzSwpeRrRnr1_2fsXUAJ02fEdgcYSg

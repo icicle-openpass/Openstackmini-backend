@@ -1,0 +1,7 @@
+export OS_AUTH_TYPE=v3applicationcredential
+export OS_REGION_NAME="IU"
+export OS_INTERFACE="public"
+export OS_APPLICATION_CREDENTIAL_ID=d0c00c0025174d76acb7668dd110a7b1
+export OS_APPLICATION_CREDENTIAL_SECRET=yfKVU0Spqi7i9CgdBGvoQ2B-l2vbL0cf1flmZDtnXK6zzpZUvSlb9ba9yzSwpeRrRnr1_2fsXUAJ02fEdgcYSg
+export OS_AUTH_URL=https://js2.jetstream-cloud.org:5000/v3/
+export OS_IDENTITY_API_VERSION=3
