@@ -12,4 +12,6 @@ def homepage():
     return "Welcome to Icicle Edge to Cloud"
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0', port=5000)
+    env = os.getenv("ENV", "dev")
+    port = int(os.getenv("PORT", 5877 if env == "dev" else 5000))
+    app.run(debug=(env == "dev"), host='0.0.0.0', port=port)

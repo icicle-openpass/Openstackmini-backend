@@ -2,7 +2,7 @@ from openstackPythonCmd.openmobile import *
 from utils.app import app
 from openstackPythonCmd.openstackcmd import *
 from openstackPythonCmd.openmobile import *
-from flask_cors import CORS,cross_origin
+from flask_cors import CORS
 
 
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -49,8 +49,7 @@ def findflavor():
 def findnetwork():
     return OpenStackCMD.findNetwork()
 
-# -------------------- OpenStack Follower Command Routes -------------------- 
-@cross_origin(origins=["http://localhost:3000"])
+# -------------------- OpenStack Follower Command Routes --------------------
 @app.route('/api/createfollowerserver', methods=['POST'])
 def createfollowerserver():
     return createFollowerServerUsingCLI()
